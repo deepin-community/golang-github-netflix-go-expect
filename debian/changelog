@@ -1,5 +1,23 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-netflix-go-expect (0.0~git20220104.73e0943-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 0.0~git20220104.73e0943
+  * Reorder fields in debian/control and debian/copyright
+  * Update versioned dependencies as per go.mod
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Mark library package with "Multi-Arch: foreign"
+  * Bump Standards-Version to 4.6.1 (no change)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Sun, 05 Jun 2022 08:18:41 -0600
+
+golang-github-netflix-go-expect (0.0~git20201125.85d881c-2) unstable; urgency=medium
+
+  * Source-only upload for testing eligibility.
+
+ -- Cyril Brulebois <cyril@debamax.com>  Tue, 12 Jan 2021 00:26:06 +0000
+
+golang-github-netflix-go-expect (0.0~git20201125.85d881c-1) unstable; urgency=medium
+
+  * Initial release (Closes: #979251).
+
+ -- Cyril Brulebois <cyril@debamax.com>  Mon, 04 Jan 2021 17:26:30 +0000
